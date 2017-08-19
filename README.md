@@ -16,8 +16,8 @@ Here's a development workflow that we recommend you use.
 X1. Fork and clone this repository.
 X1. Create a small, 2x2 grid canvas made up of white, square `div` tags with a border.
 X1. Add an event listener to each `div` so when clicked the background turns red.
-1. Create a small palette of two colors (e.g. red and blue) below the canvas using more `div` tags.
-1. Add an event listener to these `div` tags so when clicked the brush color is saved.
+X1. Create a small palette of two colors (e.g. red and blue) below the canvas using more `div` tags.
+X1. Add an event listener to these `div` tags so when clicked the brush color is saved.
 1. Expand the dimensions of the pixel canvas.
 1. Expand the palette with more colors. (i.e. red, orange, yellow, green, blue, purple, brown, gray, black, white, etc.)
 1. Expand the palette with a brush color indicator.

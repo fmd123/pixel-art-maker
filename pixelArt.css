@@ -1,8 +1,17 @@
+.pixelHolder{
+  display: inline:block;
+  width: 880px;
+  height:220px
+
+
+}
+
 .pixel{
-    width: 20px;
-    height: 20px;
+    width: 9px;
+    height: 9px;
 
     border: 1px solid black;
+
     display: inline-block;
 
     float: left;

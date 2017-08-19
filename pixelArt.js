@@ -1,7 +1,8 @@
 let colors = ["gold", "deeppink","darkorange", "cadetblue", "mediumorchid", "mediumseagreen", "limegreen", "tomato", "skyblue", "slategrey", "yellow", "darkred", "dodgerblue", "crimson", "lightpink", "khaki"];
 let brushColor;
 
-https://stackoverflow.com/questions/1104344/what-is-the-difference-between-the-mouseover-and-mouseenter-events
+https://stackoverflow.com/questions/1104344/what-is-the-difference-between-the-mouseover-and-mouseenter-events  --mouseover has bubbling issues.
+
 
 $(document).ready(function(){
 var pressed = false;
@@ -11,9 +12,9 @@ var pressed = false;
 
 
 // MAKE GRID
-  for(let i=0; i<10; i++){
+  for(let i=0; i<20; i++){
       $(".pixelHolder").append("<div class = 'row'><div>");
-        for(let j=0; j<10; j++){
+        for(let j=0; j<40; j++){
           $(".row").append("<div class = 'pixel'><div>")
         }
     }
@@ -38,6 +39,7 @@ var pressed = false;
     $("#brush1").on("click", function(){
       brushColor = "limegreen";
       $(event.target).css("border", "3px solid blue");
+
     });
 
     $("#brush2").on("click", function(){
@@ -53,9 +55,10 @@ var pressed = false;
     $("#brush4").on("click", function(){
       brushColor = "white";
       $(event.target).css("border", "3px solid blue");
+      $("#brush3").css("border", none);
     });
 
-
+    //if(brushColor !== )
 });
 
 
