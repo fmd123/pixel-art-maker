@@ -6,9 +6,9 @@ $(document).ready(function(){
           $(".row").append("<div class = 'pixel'><div>")
         }
     }
-    // $(".pixel").on("click", function(){
-    //   $(".pixel").
-    // })
+    $(".pixel").on("click", function(){
+        $(event.target ).css( "background-color", "red");
+    })
 
 
 });
