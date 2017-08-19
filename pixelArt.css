@@ -1,9 +1,35 @@
 .pixel{
     width: 20px;
     height: 20px;
-    
+
     border: 1px solid black;
     display: inline-block;
 
     float: left;
+}
+.clear{
+  clear:both;
+}
+
+.colorSample{
+  width: 20px;
+  height: 20px;
+  margin: 30px;
+  border: 1px solid black;
+  display: inline-block;
+
+  float: left;
+}
+
+#brush1{
+  background-color: chartreuse;
+}
+#brush2{
+  background-color: red;
+}
+#brush3{
+  background-color: cornflowerblue;
+}
+#brush4{
+
 }
