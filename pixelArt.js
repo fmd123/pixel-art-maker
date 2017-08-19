@@ -18,6 +18,8 @@ var pressed = false;
           $(".row").append("<div class = 'pixel'><div>")
         }
     }
+//for later: fix extra divs that are being made...
+//MOUSE STUFF
     $(".pixel").on("mousedown", function(){
       pressed = true;
       $(event.target ).css( "background-color", brushColor);
@@ -44,21 +46,36 @@ var pressed = false;
 
     $("#brush2").on("click", function(){
       brushColor = "red";
-      $(event.target).css("border", "3px solid blue");
+      //$(event.target).css("border", "3px solid blue");
     });
 
     $("#brush3").on("click", function(){
       brushColor = "cornflowerblue";
-      $(event.target).css("border", "3px solid blue");
+      //$(event.target).css("border", "3px solid blue");
     });
 
     $("#brush4").on("click", function(){
       brushColor = "white";
-      $(event.target).css("border", "3px solid blue");
-      $("#brush3").css("border", none);
+      //$(event.target).css("border", "3px solid blue");
+      $
+    });
+    $("#brush5").on("click", function(){
+      brushColor = "yellow";
+      //$(event.target).css("border", "3px solid blue");
     });
 
-    //if(brushColor !== )
+    $("#brush6").on("click", function(){
+      brushColor = "deeppink";
+      //$(event.target).css("border", "3px solid blue");
+
+    });
+    $("#brush7").on("click", function(){
+      brushColor = "gold";
+      //$(event.target).css("border", "3px solid blue");
+
+    });
+
+
 });
 
 

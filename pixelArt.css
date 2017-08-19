@@ -1,7 +1,45 @@
+
+#palette{
+  display: inline:block;
+  width: 880px;
+
+  margin: auto;
+
+}
+
+.colorSample{
+  width: 20px;
+  height: 20px;
+  margin: 30px;
+  border: 1px solid black;
+  display: inline-block;
+}
+#brush1{
+  background-color: chartreuse;
+}
+#brush2{
+  background-color: red;
+}
+#brush3{
+  background-color: cornflowerblue;
+}
+#brush4{
+background-color: white;
+}
+#brush5{
+background-color: yellow;
+}
+#brush6{
+background-color: deeppink;
+}
+#brush7{
+background-color: gold;
+}
+
 .pixelHolder{
   display: inline:block;
   width: 880px;
-  height:220px
+  margin: auto;
 
 
 }
@@ -18,27 +56,4 @@
 }
 .clear{
   clear:both;
-}
-
-.colorSample{
-  width: 20px;
-  height: 20px;
-  margin: 30px;
-  border: 1px solid black;
-  display: inline-block;
-
-  float: left;
-}
-
-#brush1{
-  background-color: chartreuse;
-}
-#brush2{
-  background-color: red;
-}
-#brush3{
-  background-color: cornflowerblue;
-}
-#brush4{
-
 }
